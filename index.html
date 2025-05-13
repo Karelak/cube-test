@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Cube</title>
+    <link href="./src/style.css" rel="stylesheet" />
+  </head>
+
+  <body
+    class="bg-black text-white flex items-center justify-center h-screen m-0 overflow-hidden"
+  >
+    <canvas id="cubeCanvas"></canvas>
+    <div
+      id="dimensionsDisplay"
+      class="absolute top-4 left-4 text-white p-2 bg-gray-700 bg-opacity-50 rounded"
+    >
+      <p>Length: <span id="lengthVal">0.00</span> cm</p>
+      <p>Height: <span id="heightVal">0.00</span> cm</p>
+      <p>Depth: <span id="depthVal">0.00</span> cm</p>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
